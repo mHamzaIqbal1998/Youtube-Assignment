@@ -1,0 +1,15 @@
+/* // was facing some issue due to parent inheritance did't had enough time to figure 
+out exact issue so just using the separate css file for a quick fix */
+.textBox {
+  background-color: #fbfbfb;
+  min-height: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  .textBox {
+    min-height: 10rem;
+  }
+}
+.boxHeight {
+  height: 45%;
+}
